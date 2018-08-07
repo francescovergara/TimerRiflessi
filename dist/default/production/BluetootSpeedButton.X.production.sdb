@@ -1,0 +1,479 @@
+[p LITE_MODE AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F1220 ]
+[d frameptr 4065 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strcat.c
+[v _strcat strcat `(*.39uc  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"47 C:\Users\franc\MPLABXProjects\BluetootSpeedButton.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"74
+[v _initUart initUart `(v  1 e 1 0 ]
+"112
+[v _setUartInterrupt setUartInterrupt `(v  1 e 1 0 ]
+"127
+[v _ISR ISR `IIH(v  1 e 1 0 ]
+"168
+[v _handleRX handleRX `(v  1 e 1 0 ]
+"198
+[v _handleTX handleTX `(v  1 e 1 0 ]
+"213
+[v _startTX startTX `(v  1 e 1 0 ]
+"222
+[v _clearBufferRx clearBufferRx `(v  1 e 1 0 ]
+"227
+[v _clearBufferTx clearBufferTx `(v  1 e 1 0 ]
+"233
+[v _startTimer0 startTimer0 `(v  1 e 1 0 ]
+"244
+[v _stopTimer0 stopTimer0 `(v  1 e 1 0 ]
+"251
+[v _ltoa ltoa `(v  1 e 1 0 ]
+[s S336 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"104 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f1220.h
+[s S345 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 MCLR 1 0 :1:5 
+`uc 1 CLKO 1 0 :1:6 
+`uc 1 CLKI 1 0 :1:7 
+]
+[s S354 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LVDIN 1 0 :1:1 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+`uc 1 OSC1 1 0 :1:7 
+]
+[s S363 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_MCLR 1 0 :1:5 
+]
+[s S366 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 nMCLR 1 0 :1:5 
+`uc 1 CLKOUT 1 0 :1:6 
+`uc 1 CLKIN 1 0 :1:7 
+]
+[s S371 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S375 . 1 `S336 1 . 1 0 `S345 1 . 1 0 `S354 1 . 1 0 `S363 1 . 1 0 `S366 1 . 1 0 `S371 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES375  1 e 1 @3968 ]
+[s S462 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"738
+[s S471 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+[u S480 . 1 `S462 1 . 1 0 `S471 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES480  1 e 1 @3986 ]
+[s S69 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"940
+[s S78 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S87 . 1 `S69 1 . 1 0 `S78 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES87  1 e 1 @3987 ]
+[s S240 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"1209
+[s S248 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S252 . 1 `S240 1 . 1 0 `S248 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES252  1 e 1 @3997 ]
+[s S296 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"1275
+[s S304 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S308 . 1 `S296 1 . 1 0 `S304 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES308  1 e 1 @3998 ]
+[s S268 . 1 `uc 1 TMR1IP 1 0 :1:0 
+`uc 1 TMR2IP 1 0 :1:1 
+`uc 1 CCP1IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXIP 1 0 :1:4 
+`uc 1 RCIP 1 0 :1:5 
+`uc 1 ADIP 1 0 :1:6 
+]
+"1341
+[s S276 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IP 1 0 :1:4 
+`uc 1 RC1IP 1 0 :1:5 
+]
+[u S280 . 1 `S268 1 . 1 0 `S276 1 . 1 0 ]
+[v _IPR1bits IPR1bits `VES280  1 e 1 @3999 ]
+"2126
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"2138
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"2150
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+[s S34 . 1 `uc 1 PCFG 1 0 :7:0 
+]
+"2668
+[s S36 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 PCFG4 1 0 :1:4 
+`uc 1 PCFG5 1 0 :1:5 
+`uc 1 PCFG6 1 0 :1:6 
+]
+[s S44 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S49 . 1 `S34 1 . 1 0 `S36 1 . 1 0 `S44 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES49  1 e 1 @4033 ]
+[s S166 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"3245
+[s S168 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S171 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S174 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S177 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S180 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S188 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S194 . 1 `S166 1 . 1 0 `S168 1 . 1 0 `S171 1 . 1 0 `S174 1 . 1 0 `S177 1 . 1 0 `S180 1 . 1 0 `S188 1 . 1 0 ]
+[v _RCONbits RCONbits `VES194  1 e 1 @4048 ]
+[s S516 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"3529
+[s S523 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 T016BIT 1 0 :1:6 
+]
+[u S529 . 1 `S516 1 . 1 0 `S523 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES529  1 e 1 @4053 ]
+"3591
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+[s S109 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"4068
+[s S118 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S127 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S135 . 1 `S109 1 . 1 0 `S118 1 . 1 0 `S127 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES135  1 e 1 @4082 ]
+"4467
+[v _BRG16 BRG16 `VEb  1 e 0 @32083 ]
+"4470
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"4542
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"5127
+[v _RX9 RX9 `VEb  1 e 0 @32094 ]
+"5172
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"5211
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"5457
+[v _TX9 TX9 `VEb  1 e 0 @32102 ]
+"5472
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"5481
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"35 C:\Users\franc\MPLABXProjects\BluetootSpeedButton.X\main.c
+[v _useTxInterrupt useTxInterrupt `ui  1 e 2 0 ]
+"36
+[v _bufferTx bufferTx `[50]uc  1 e 50 0 ]
+"37
+[v _bufferTxSize bufferTxSize `ui  1 e 2 0 ]
+"38
+[v _bufferTxByteSend bufferTxByteSend `ui  1 e 2 0 ]
+"41
+[v _bufferRx bufferRx `[50]uc  1 e 50 0 ]
+"42
+[v _bufferRxSize bufferRxSize `ui  1 e 2 0 ]
+"44
+[v _timer timer `ul  1 e 4 0 ]
+"47
+[v _main main `(v  1 e 1 0 ]
+{
+"69
+} 0
+"112
+[v _setUartInterrupt setUartInterrupt `(v  1 e 1 0 ]
+{
+[v setUartInterrupt@status status `ui  1 p 2 0 ]
+[v setUartInterrupt@priority priority `ui  1 p 2 2 ]
+"121
+} 0
+"74
+[v _initUart initUart `(v  1 e 1 0 ]
+{
+"105
+} 0
+"127
+[v _ISR ISR `IIH(v  1 e 1 0 ]
+{
+"142
+[v ISR@str str `[20]uc  1 a 20 37 ]
+"141
+[v ISR@out out `ul  1 a 4 57 ]
+"166
+} 0
+"3 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strcat.c
+[v _strcat strcat `(*.39uc  1 e 2 0 ]
+{
+[v strcat@dest dest `*.39uc  1 p 2 16 ]
+[v strcat@src src `*.35Cuc  1 p 2 18 ]
+"7
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"14
+[v strlen@a a `*.39Cuc  1 a 2 4 ]
+"12
+[v strlen@s s `*.39Cuc  1 p 2 0 ]
+"26
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+{
+"14
+[v strcpy@d d `*.39uc  1 a 2 14 ]
+"13
+[v strcpy@s s `*.35Cuc  1 a 2 12 ]
+"7
+[v strcpy@dest dest `*.39uc  1 p 2 6 ]
+[v strcpy@src src `*.35Cuc  1 p 2 8 ]
+"18
+} 0
+"244 C:\Users\franc\MPLABXProjects\BluetootSpeedButton.X\main.c
+[v _stopTimer0 stopTimer0 `(v  1 e 1 0 ]
+{
+"248
+} 0
+"251
+[v _ltoa ltoa `(v  1 e 1 0 ]
+{
+"253
+[v ltoa@original original `l  1 a 4 21 ]
+"255
+[v ltoa@c c `i  1 a 2 27 ]
+"259
+[v ltoa@pos pos `i  1 a 2 25 ]
+"251
+[v ltoa@buffer buffer `*.39uc  1 p 2 13 ]
+[v ltoa@buffSize buffSize `i  1 p 2 15 ]
+[v ltoa@value value `ul  1 p 4 17 ]
+"271
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"10
+[v ___llmod@counter counter `uc  1 a 1 8 ]
+"7
+[v ___llmod@dividend dividend `ul  1 p 4 0 ]
+[v ___llmod@divisor divisor `ul  1 p 4 4 ]
+"25
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"30
+} 0
+"198 C:\Users\franc\MPLABXProjects\BluetootSpeedButton.X\main.c
+[v _handleTX handleTX `(v  1 e 1 0 ]
+{
+"211
+} 0
+"227
+[v _clearBufferTx clearBufferTx `(v  1 e 1 0 ]
+{
+"231
+} 0
+"168
+[v _handleRX handleRX `(v  1 e 1 0 ]
+{
+"185
+[v handleRX@i i `i  1 a 2 19 ]
+"196
+} 0
+"233
+[v _startTimer0 startTimer0 `(v  1 e 1 0 ]
+{
+"242
+} 0
+"213
+[v _startTX startTX `(v  1 e 1 0 ]
+{
+"220
+} 0
+"222
+[v _clearBufferRx clearBufferRx `(v  1 e 1 0 ]
+{
+"225
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"6
+[v memset@s s `*.39uc  1 a 2 12 ]
+"7
+[v memset@k k `ui  1 a 2 10 ]
+"4
+[v memset@dest dest `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"90
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
